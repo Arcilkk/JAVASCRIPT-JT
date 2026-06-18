@@ -1,0 +1,41 @@
+body {
+    background-color: #772424;
+    font-family: sans-serif;
+    padding-top: 100px; /* Desplaza el contenedor hacia abajo */
+}
+
+.contenedor {
+    background-color: #ffffff;
+    width: 300px;
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px;
+    border: 1px solid #999999;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+input {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    padding: 5px;
+    background-color: #772424;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #999999;
+    cursor: not-allowed;
+}
+
+#mensaje {
+    font-weight: bold;
+    text-align: center;
+}
