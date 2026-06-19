@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parqueadero</title>
+</head>
+<body>
+
+    <h2>Sistema de Parqueadero</h2>
+
+    <label>Tipo de vehículo:</label>
+    <select id="tipo">
+        <option value="automovil">Automóvil</option>
+        <option value="moto">Moto</option>
+    </select>
+    <br><br>
+
+    <label>Placa:</label>
+    <input type="text" id="placa">
+    <br><br>
+
+    <label>Hora ingreso:</label>
+    <input type="datetime-local" id="ingreso">
+    <br><br>
+
+    <label>Hora salida:</label>
+    <input type="datetime-local" id="salida">
+    <br><br>
+
+    <button onclick="procesar()">Calcular</button>
+
+    <h3 id="resultado"></h3>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
